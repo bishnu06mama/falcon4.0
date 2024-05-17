@@ -1,0 +1,40 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #ffb6c1;
+    padding: 20px  50px;
+    border: transparent;
+    border-radius: 30px;
+    transition: 2s ease-in-out;
+    transform: scale(1.5);
+    /* transform: rotate(360deg); */
+    transform: skew(30deg);
+    transform: translate();
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(147, 94, 197);
+    font-size: 40px;
+    /* transform: rotate(360deg); */
+    transform: skew(30deg, 20deg);
+    /* transform: translate(); */
+    animation: btnMoving 2s forwards;
+}
+
+@keyframes btnMoving {
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
