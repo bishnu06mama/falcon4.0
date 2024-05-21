@@ -35,3 +35,42 @@ console.log(decimal_num);
 
  let string = 367;
  console.log(typeof string);//output: number
+
+
+
+ // BigInt :
+
+// BigInt is a new data type in JavaScript that can represent integers of any size. It is used to store integers that are too large or too small.
+
+let bigInt = 1000000000000000;
+console.log(bigInt);
+
+// Null :
+
+let result = null; // null : void / empty;
+console.log(typeof result); // null
+
+// Undefined :
+
+// let value = undefined;
+let value; // nothing is assigned.
+console.log(value); // undefined
+console.log(typeof value); // undefined
+
+// Boolean :
+
+let isMarried = false;
+console.log(typeof isMarried); // boolean
+console.log(!isMarried); // true
+
+// Symbol :
+
+// Symbol is a data types in JS to produce unique key values and it's introduced in ES6.
+// It is used to create unique identifiers for objects.
+
+let symbol1 = Symbol("abc"); // differnet value
+let symbol2 = Symbol("def"); // differnet value
+console.log(symbol1 === symbol2); // false
+
+console.log(symbol1.description);
+console.log(symbol2.description);

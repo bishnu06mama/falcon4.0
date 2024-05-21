@@ -2,51 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #93aeb4;
-  }
-  .main_section {
-    background-color: #9e7979;
-    max-width: 1000px;
-    margin: 50px auto;
-    position: relative;
-  }
-  .box {
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  grid-template-rows: repeat(2,50px);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.box{
+    /* height: 100px; */
+    /* width: 100px; */
     border: 1px solid;
-    width: 100px;
-    height: 100px;
     text-align: center;
-  }
-  #box1 {
-    position: static;
-    background-color: aliceblue;
-  }
-  #box2 {
-    position: relative;
-    top: 10px;
-    left: 110px;
-    background-color: rgb(167, 167, 47);
-  }
-  #box3 {
-    position: absolute;
-    top: 10px;
-    left: 220px;
+}
+
+#box1{
+    background-color: lightcoral;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
     background-color: aquamarine;
-  }
-  #box4 {
-    position: fixed;
-    top: 10px;
-    left: 20px;
-    background-color: lightgreen;
-  }
-  #box5 {
-    position: sticky;
-    top: 0;
-    background-color:lightsalmon;
-  }
-  .paragraph {
-    padding: 20px;
-    text-align: justify;
-  }
+    grid-column: 1 /  span 1;
+    grid-row: 1 / span 2;
+}
+#box4{
+    background-color: bisque;
+}
+#box5{
+    background-color: brown;
+    /* grid-column: 2 / span 3; */
+    /* grid-row: 2 / span 5; */
+}

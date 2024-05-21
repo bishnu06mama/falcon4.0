@@ -1,17 +1,29 @@
-#heading {
-    color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
 }
+h1 {
+    font-size: 2em;
+}
+.main_div {
+    border: 1px solid;
+    width: 800px;
+    height: 300px;
+    margin-left: 150px ;
+    margin-top: 70px;
+    background-color: azure;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+ .box {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    text-align: center;
 
-#profile{
-   width: 200px;
-   height: 200px; 
-   border-radius: 50%;
-}
-#paragraph{
-    background-color: aquamarine;
-    color: blueviolet;
-}
-
-.name {
-    color: brown;
-}
+ }
