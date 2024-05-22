@@ -102,6 +102,11 @@ console.log(st);
 console.log(st.valueOf);
 
 
+//to do ? print your birthday in th console using the date object.
+// to do ? print the current time in the console using the date object.
+// print your current age using the date object.
+
+
 
 
 
