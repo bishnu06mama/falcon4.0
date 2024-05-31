@@ -30,7 +30,7 @@
 // else if (age < 18) 
 //     console.log("you are not eligible for vote");{
     
-// } else (age < 0) {
+// } else  {
 //     console.log("invalid age");
 // }
     
